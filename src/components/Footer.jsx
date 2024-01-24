@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-row flex-wrap -mx-3 pb-[96px]">
           <div className="lg:w-4/12 px-3 w-full">
             <img src={footlogo} alt="footlogo" />
-            <p className="text-[#E6E6E6] text-base font-inter leading-[200%] max-w-[296px] pt-4 font-normal">
+            <p className="text-[#E6E6E6] text-base font-inter leading-[200%] md:max-w-[500px] lg:max-w-[296px] pt-4 font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor rhoncus dolor purus non enim praesent elem

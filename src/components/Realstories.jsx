@@ -4,7 +4,7 @@ import jpnl from "../assets/images/jpnl2.webp";
 import leevon2 from "../assets/images/LeeveOn2.webp";
 const Realstories = () => {
   return (
-    <div className="pt-[161px]  pb-[105px]">
+    <div className="md:pt-[161px] pt-20 pb-12  md:pb-[105px]">
       <div className="max-w-[1194px] mx-auto  px-3 ">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3 pb-9">
@@ -19,7 +19,7 @@ const Realstories = () => {
               </div>
             </div>
             <div className="flex lg:justify-end justify-center">
-              <div className="max-w-[445px] lg:w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-12 pb-24 rounded-lg">
+              <div className="max-w-[445px] lg:w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-12 pb-5 md:pb-24 rounded-lg">
                 <img src={crypto} alt="lOGO" className="pb-6 pl-8" />
                 <div className="flex gap-4">
                   <svg
@@ -63,7 +63,7 @@ const Realstories = () => {
             </div>
           </div>
           <div className="lg:w-1/2 w-full px-3 flex flex-col lg:justify-end items-center lg:items-start">
-            <div className="max-w-[445px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-[39px] pb-[14px] rounded-lg lg:mb-8 mb-9">
+            <div className="max-w-[445px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-[39px] pb-[14px] rounded-lg lg:mb-8 mb-9">
               <img src={jpnl} alt="logo" className="pl-8 pb-[15px]" />
               <div className="flex gap-4">
                 <svg

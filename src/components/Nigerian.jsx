@@ -7,7 +7,7 @@ import jrango from "../assets/images/Jrango.webp";
 import crypto2 from "../assets/images/Crypto2.webp";
 const Nigerian = () => {
   return (
-    <div className="pb-[106px]">
+    <div className="md:pb-[106px] sm:pb-20 pb-10">
       <div className="max-w-[1194px] mx-auto px-3">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3">
@@ -21,22 +21,22 @@ const Nigerian = () => {
           </div>
           <div className="lg:w-1/2 w-full px-3 ">
             <div className="flex flex-wrap flex-row -mx-3">
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={jpnl} alt="logo" />
               </div>
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={korane} alt="logo" />
               </div>
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={nadine} alt="logo" />
               </div>
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={leevon} alt="logo" />
               </div>
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={jrango} alt="logo" />
               </div>
-              <div className="w-1/3 px-3 flex justify-center lg:block items-center">
+              <div className="sm:w-1/3 w-1/2 px-3 flex justify-center lg:block items-center">
                 <img src={crypto2} alt="logo" />
               </div>
             </div>

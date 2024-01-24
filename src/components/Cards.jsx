@@ -32,7 +32,7 @@ const Cards = () => {
         <p className=" text-xl font-bold font-poppins leading-normal pb-1 text-center">
         {card.title}
         </p>
-        <p className="text-xs font-light font-poppins leading-normal text-center">
+        <p className="text-xs font-light font-poppins leading-normal text-center max-w-[350px] mx-auto">
           We Keep Your Web build Online 24x7x365. Downtime not only costs
           you lost visitors but also damages your reputation and search
           engine rankings.
@@ -40,7 +40,7 @@ const Cards = () => {
       </div>
     ))
   return (
-    <div className="pt-28">
+    <div className="md:pt-28 pt-12">
       <div className="max-w-[1215px] mx-auto px-3">
         <div className="flex flex-wrap flex-row -mx-3 justify-center">
           {icons}

@@ -13,7 +13,8 @@ const Herosec = () => {
     <div className="lg:py-20 md:py-16 sm:py-10 py-8 overflow-x-clip">
       <div className="container max-w-[1138px] px-3 mx-auto ">
         <div className="flex flex-row flex-wrap -mx-3">
-          <div className="lg:w-1/2 w-full px-3">
+          <div className="lg:w-1/2 w-full px-3" data-aos="fade-right"   data-aos-easing="linear"
+     data-aos-duration="1000">
             <div className="flex relative justify-center after:absolute max-w-[248px] lg:text-start text-center max-lg:mx-auto max-lg:after:left-[14px] max-lg:after:right-[-8px]  after:left-[20px] after:bottom-[-3px] after:right-[-23px] after:bg-[#D6D4D4E0] after:h-[2px]">
               <p
                 onClick={() => tabchange("tab1")}
@@ -96,7 +97,8 @@ const Herosec = () => {
         </button>
                       </div>
           </div>
-                  <div className="lg:w-1/2 w-full px-3 flex lg:justify-end justify-center lg:pt-0 pt-4 xl:translate-x-14">
+                  <div className="lg:w-1/2 w-full px-3 flex lg:justify-end justify-center lg:pt-0 pt-4 xl:translate-x-14" data-aos="fade-up"   data-aos-easing="linear"
+     data-aos-duration="1000">
                       <div className="relative">
                           <img src={headerimg} alt="headerimg" />
                           <img src={triangle1} alt="1" className="absolute bottom-[45%] left-[-6%]" />

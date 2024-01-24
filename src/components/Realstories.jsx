@@ -19,7 +19,8 @@ const Realstories = () => {
               </div>
             </div>
             <div className="flex lg:justify-end justify-center">
-              <div className="max-w-[445px] lg:w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-12 pb-5 md:pb-24 rounded-lg">
+              <div className="max-w-[445px] lg:w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-12 pb-5 md:pb-24 rounded-lg" data-aos="fade-right"   data-aos-easing="linear"
+     data-aos-duration="1000">
                 <img src={crypto} alt="lOGO" className="pb-6 pl-8" />
                 <div className="flex gap-4">
                   <svg
@@ -63,7 +64,8 @@ const Realstories = () => {
             </div>
           </div>
           <div className="lg:w-1/2 w-full px-3 flex flex-col lg:justify-end items-center lg:items-start">
-            <div className="max-w-[445px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-[39px] pb-[14px] rounded-lg lg:mb-8 mb-9">
+            <div className="max-w-[445px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-5 md:pt-[39px] pb-[14px] rounded-lg lg:mb-8 mb-9" data-aos="fade-left"   data-aos-easing="linear"
+     data-aos-duration="1000">
               <img src={jpnl} alt="logo" className="pl-8 pb-[15px]" />
               <div className="flex gap-4">
                 <svg
@@ -104,7 +106,8 @@ const Realstories = () => {
                 </div>
               </div>
             </div>
-            <div className="max-w-[445px] lg:max-w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-[41px] pb-8">
+            <div className="max-w-[445px] lg:max-w-[350px] bg-white shadow-[0px_10px_20px_0px_#29292A12] px-8 pt-[41px] pb-8" data-aos="fade-left"   data-aos-easing="linear"
+     data-aos-duration="1000">
               <img src={leevon2} alt="logo" className="pl-8" />
               <div className="flex gap-4">
                 <svg

@@ -6,7 +6,8 @@ const Awesome = () => {
   return (
     <div className="md:pb-[110px] pb-10 sm:pb-20 overflow-hidden">
       <div className="max-w-[1272px] mx-auto px-3">
-        <div className="max-w-[1232px] mx-auto bg-[#F7FAFE] rounded-2xl pt-20 flex flex-col items-center pb-[88px] relative">
+        <div className="max-w-[1232px] mx-auto bg-[#F7FAFE] rounded-2xl pt-20 flex flex-col items-center pb-[88px] relative" data-aos="zoom-in-up"   data-aos-easing="linear"
+     data-aos-duration="1000">
           <img src={t1} alt="triangle" className="absolute top-0 left-[34%]" />
           <img
             src={t2}

@@ -33,10 +33,11 @@ const Ready = () => {
   }
 
   const data = myArray.map((myArray, i) => (
-     <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 ">
+     <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " >
             <div
               className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040_inset] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5
-"
+"data-aos="flip-right"  data-aos-easing="linear"
+data-aos-duration="1000"
             >
               <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
           {Premium === "tabone" && (<div>{myArray.heading}</div>)}

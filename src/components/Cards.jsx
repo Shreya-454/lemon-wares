@@ -23,7 +23,8 @@ const card = [
 ];
 const Cards = () => {
     const icons = card.map((card,index)=>(
-        <div key={index} className="sm:w-1/2 w-full mb-10 md:w-1/3 lg:w-1/4 px-3">
+        <div key={index} className="sm:w-1/2 w-full mb-10 md:w-1/3 lg:w-1/4 px-3" data-aos="zoom-in"   data-aos-easing="linear"
+        data-aos-duration="1000">
         <div className="flex justify-center mb-3">
           <div className="w-[100px] h-[100px] rounded-full bg-[#B0000026] flex justify-center items-center">
             <img src={card.icon} alt="icon1" />

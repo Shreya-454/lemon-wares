@@ -11,6 +11,8 @@ import Mynav from './components/Mynav';
 import BackToTop from './components/BackToTop';
 import { useEffect, useState } from 'react';
 import Preloader from './components/Preloader';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [data, setdata] = useState(false);
@@ -19,6 +21,11 @@ function App() {
     setTimeout(() => {
       setdata(false);
     }, 4000);
+  }, []);
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
   }, []);
   return (
     <div>

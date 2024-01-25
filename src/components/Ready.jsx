@@ -238,7 +238,7 @@ data-aos-duration="1000"
             >
               <div
                 className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${
-                  toggle ? "right-[10%]" : "right-[63%]"
+                  toggle ? "right-[10%]" : "right-[59%]"
                 }`}
               ></div>
             </div>

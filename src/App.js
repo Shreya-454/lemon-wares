@@ -34,7 +34,7 @@ function App() {
         <Preloader />
       </div>
     ) : (
-    <div className="overflow-hidden">
+    <div className="overflow-x-clip">
       <Mynav/>
      <Header/>
      <Hosting/>

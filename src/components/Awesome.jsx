@@ -18,7 +18,7 @@ const Awesome = () => {
           <h2 className=" text-4xl sm:text-5xl md:text-[64px] font-poppins leading-[137.5%] font-semibold text-center max-w-[1024px] mx-auto mb-10">
             We're here to make your website awesome.
           </h2>
-          <a href="https://www.whatsapp.com/">
+          <a href="https://www.whatsapp.com/"  target="blank">
             <button class="relative px-4 py-3 group flex gap-[9px] items-center rounded-[12px] overflow-hidden  bg-[#B00000] text-white shadow-[0px_0px_64px_0px_#B000004D] hover:shadow-black hover:shadow-2xl
              transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:before:h-2/4 hover:after:h-2/4">
                 <span>

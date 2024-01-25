@@ -10,7 +10,7 @@ const Herosec = () => {
     setnext(tab);
   }
   return (
-    <div className="lg:py-20 md:py-16 sm:py-10 py-8 overflow-x-clip">
+    <div className="lg:py-20 md:py-16 sm:py-10 py-8 overflow-x-clip" id="head">
       <div className="container max-w-[1138px] px-3 mx-auto ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-right"   data-aos-easing="linear"

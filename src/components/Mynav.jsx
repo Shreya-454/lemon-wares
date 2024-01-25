@@ -6,10 +6,10 @@ const Mynav = () => {
   function nav() {
     setshow(!show);
     if (show === true) {
-      document.body.classList.add("overflow-hidden")
+      document.body.classList.add("max-lg:overflow-hidden")
     }
     else {
-      document.body.classList.remove("overflow-hidden")
+      document.body.classList.remove("max-lg:overflow-hidden")
     }
   }
   return (
@@ -23,34 +23,34 @@ const Mynav = () => {
                   <img src={logo} alt="logo" />
                 </a>
               </li>
-              <li className="text-black lg:block hidden text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Our Services
+              <li onClick={nav} className="lg:block hidden  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] ">
+                <a href="#" className="text-black text-center font-poppins font-semibold leading-normal text-[15px]  ">Our Services</a>
               </li>
             </ul>
             <ul    className={`gap-8 flex mobileView items-center duration-700 ${
               show ? "right-[-100%]" : "right-0"
                           }`}>
-                            <li className="text-black lg:hidden block text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Our Services
+                            <li onClick={nav} className=" lg:hidden block  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+                <a href="#head" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Our Services</a>
               </li>
-              <li className="text-black text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                About
+              <li onClick={nav} className=" relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+                <a href="#about" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">About</a>
               </li>
-              <li className="text-black text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Blog&News
+              <li onClick={nav} className=" relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+                <a href="#blogs" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Blog&News</a>
               </li>
-              <li className="text-black text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Contact
+              <li onClick={nav} className="s relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+                <a href="#contact" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Contact</a>
                           </li>
-                           <li className="text-black md:hidden block text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Contact
+                           <li onClick={nav} className="md:hidden block relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+               <a href="#account" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Account</a>
               </li>
             </ul>
           </div>
           <div>
             <ul className="flex gap-16 ">
-              <li className="text-black md:block hidden text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] text-[15px] font-semibold leading-normal">
-                Account
+              <li className=" md:block hidden  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
+                <a href="#account" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Account</a>
               </li>
               <li >
                 <a href="tel:+2349067322844" className="text-black flex items-center text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] sm:text-[15px] text-xs font-semibold leading-normal">

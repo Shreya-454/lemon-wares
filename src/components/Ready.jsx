@@ -54,9 +54,6 @@ data-aos-duration="1000"
               <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
                 {toggle?"Per year":"Per month"}
         </p>
-              {/* <button className="leading-[ 228.571%] text-nowrap font-semibold text-[14px] font-poppins text-black md::px-14 md:py-[13px] px-12 py-2 border-[2px] border-black rounded-[12px] md:mt-[35px] mt-6">
-                Choose this Plan
-              </button> */}
               <div className="flex justify-center">
                 <button class="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
                           <span class="relative z-10  text-black font-poppins group-hover:text-white duration-500  leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
@@ -220,7 +217,7 @@ data-aos-duration="1000"
   ))
  
   return (
-    <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5">
+    <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5" id="account">
       <div className="container max-w-[1097px] mx-auto px-3">
         <div className="flex justify-center flex-col">
           <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold leading-[120%] max-w-[650px]">

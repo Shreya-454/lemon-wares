@@ -4,7 +4,7 @@ import jpnl from "../assets/images/jpnl2.webp";
 import leevon2 from "../assets/images/LeeveOn2.webp";
 const Realstories = () => {
   return (
-    <div className="md:pt-[161px] pt-20 pb-12  md:pb-[105px]">
+    <div className="md:pt-[161px] pt-20 pb-12  md:pb-[105px]" id="blogs">
       <div className="max-w-[1194px] mx-auto  px-3 ">
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3 pb-9">

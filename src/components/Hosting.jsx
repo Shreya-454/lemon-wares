@@ -7,7 +7,7 @@ import wordpress from "../assets/images/wordpress.webp";
 import cloudflare from "../assets/images/cloudflare.webp";
 const Hosting = () => {
   return (
-    <div className="md:pt-[79px] ">
+    <div className="lg:pt-[79px] " id="about">
       <div className="max-w-[1284px] mx-auto px-3">
         <div className="flex flex-wrap fle-row -mx-3">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-up-right"   data-aos-easing="linear"

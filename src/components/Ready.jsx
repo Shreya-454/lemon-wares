@@ -220,7 +220,7 @@ data-aos-duration="1000"
     <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5" id="account">
       <div className="container max-w-[1097px] mx-auto px-3">
         <div className="flex justify-center flex-col">
-          <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold leading-[120%] max-w-[650px]">
+          <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold leading-[150%] max-w-[650px]">
             Ready to get started with Lemon Wares?
           </h2>
           <p className="md:pt-9 sm:pt-5 pt-3 text-black font-poppins md:text-[25px] text-xl font-normal leading-[100%] text-center mx-auto">

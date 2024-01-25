@@ -11,11 +11,11 @@ const Herosec = () => {
   }
   return (
     <div className="lg:py-20 md:py-16 sm:py-10 py-8 overflow-x-clip" id="head">
-      <div className="container max-w-[1138px] px-3 mx-auto ">
+      <div className="container max-w-[1215px] px-3 mx-auto ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-right"   data-aos-easing="linear"
      data-aos-duration="1000">
-            <div className="flex relative justify-center after:absolute max-w-[248px] lg:text-start text-center max-lg:mx-auto max-lg:after:left-[14px] max-lg:after:right-[-8px]  after:left-[20px] after:bottom-[-3px] after:right-[-23px] after:bg-[#D6D4D4E0] after:h-[2px]">
+            <div className="flex relative justify-center after:absolute max-w-[248px] lg:text-start text-center max-lg:mx-auto max-lg:after:left-[14px] max-lg:after:right-[-8px]  after:left-[13px] after:bottom-[-3px] after:right-[-13px] after:bg-[#D6D4D4E0] after:h-[2px]">
               <p
                 onClick={() => tabchange("tab1")}
                 className={`${

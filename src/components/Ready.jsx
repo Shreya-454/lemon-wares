@@ -55,7 +55,7 @@ data-aos-duration="1000"
                 {toggle?"Per year":"Per month"}
         </p>
               <div className="flex justify-center">
-                <button class="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
+                <button class="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black hover:shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
                           <span class="relative z-10  text-black font-poppins group-hover:text-white duration-500  leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
                         </button>
               </div>
@@ -233,7 +233,7 @@ data-aos-duration="1000"
               Monthly
             </p>
             <div
-              className="relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8 bg-[#B00000] px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500"
+              className={`relative md:w-[93px] w-[63px] h-[30px] md:h-[50px] ml-8  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? "bg-black" : "bg-[#B00000]"}`}
               onClick={btn}
             >
               <div

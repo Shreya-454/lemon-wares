@@ -10,7 +10,7 @@ const Realstories = () => {
           <div className="lg:w-1/2 w-full px-3 pb-9">
             <div className="flex justify-center lg:justify-end pb-6 ">
               <div>
-                <h2 className="sm:text-5xl text-4xl font-inter font-extrabold leading-[133.333%] text-[#18191F] lg:max-w-[445px] max-w-[600px] mb-2 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
+                <h2 className="sm:text-5xl text-4xl font-inter font-extrabold leading-[133.333%] text-[#18191F] lg:max-w-[445px] max-w-[600px] mb-2 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-67px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
                   Real Stories from Real Customers
                 </h2>
                 <p className="font-inter text-base sm:text-lg  font-normal leading-[177.778%] text-[#18191F] text-center lg:text-start">

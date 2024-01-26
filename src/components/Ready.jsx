@@ -33,30 +33,30 @@ const Ready = () => {
   }
 
   const data = myArray.map((myArray, i) => (
-     <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " >
+     <div key={i} className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex mb-5 " >
             <div
               className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040_inset] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5
 "data-aos="flip-right"  data-aos-easing="linear"
 data-aos-duration="1000"
             >
               <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
-          {Premium === "tabone" && (<div>{myArray.heading}</div>)}
-          {Premium==="tabsecond"&&(<div>{myArray.heading4}</div>)} 
+          {Premium === "tabone" && (<span>{myArray.heading}</span>)}
+          {Premium==="tabsecond"&&(<span>{myArray.heading4}</span>)} 
               </p>
               <p className="md:pt-[11px] sm:pt-2 pt-1 text-black text-xs font-normal leading-[150%] max-w-[237px] font-poppins">
                 with all your customers via all conversation channels in one
                 central dashboard.
               </p>
               <p className="font-poppins text-black md:text-[42px] text-3xl font-semibold leading-[76.19%] md:pt-7 sm:pt-5 pt-4">
-                {Premium === "tabone" && (<div>{myArray.heading2}</div>)}
-          {Premium==="tabsecond"&&(<div>{myArray.heading3}</div>)} 
+                {Premium === "tabone" && (<span>{myArray.heading2}</span>)}
+          {Premium==="tabsecond"&&(<span>{myArray.heading3}</span>)} 
               </p>
               <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
                 {toggle?"Per year":"Per month"}
         </p>
               <div className="flex justify-center">
-                <button class="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black hover:shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
-                          <span class="relative z-10  text-black font-poppins group-hover:text-white duration-500  leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
+                <button className="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black hover:shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
+                          <span className="relative z-10  text-black font-poppins group-hover:text-white duration-500  leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
                         </button>
               </div>
               <div className="flex items-center md:pt-[35px] pt-7 pb-2 md:pb-4">

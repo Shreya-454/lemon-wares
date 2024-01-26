@@ -19,7 +19,7 @@ const Awesome = () => {
             We're here to make your website awesome.
           </h2>
           <a href="https://www.whatsapp.com/"  target="blank">
-            <button class="relative px-4 py-3 group flex gap-[9px] items-center rounded-[12px] overflow-hidden  bg-[#B00000] text-white shadow-[0px_0px_64px_0px_#B000004D] hover:shadow-black hover:shadow-2xl
+            <button className="relative px-4 py-3 group flex gap-[9px] items-center rounded-[12px] overflow-hidden  bg-[#B00000] text-white shadow-[0px_0px_64px_0px_#B000004D] hover:shadow-black hover:shadow-2xl
              transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:before:h-2/4 hover:after:h-2/4">
                 <span>
                 <svg
@@ -36,7 +36,7 @@ const Awesome = () => {
                   />
                 </svg>
               </span>
-            <span class="relative z-10  text-white font-poppins group-hover:text-white duration-500    sm:text-sm text-xs font-normal leading-[171.429%]">Get in touch with us</span>
+            <span className="relative z-10  text-white font-poppins group-hover:text-white duration-500    sm:text-sm text-xs font-normal leading-[171.429%]">Get in touch with us</span>
                     </button>
           </a>
         </div>

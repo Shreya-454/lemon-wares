@@ -10,10 +10,10 @@ const Realstories = () => {
           <div className="lg:w-1/2 w-full px-3 pb-9">
             <div className="flex justify-center lg:justify-end pb-6 ">
               <div>
-                <h2 className="sm:text-5xl text-4xl font-inter font-extrabold leading-[133.333%] text-[#18191F] lg:max-w-[445px] max-w-[600px] mb-2 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-67px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
+                <h2 className="sm:text-5xl text-4xl font-inter font-extrabold !leading-[133.333%] text-[#18191F] lg:max-w-[445px] max-w-[600px] mb-2 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-67px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
                   Real Stories from Real Customers
                 </h2>
-                <p className="font-inter text-base sm:text-lg  font-normal leading-[177.778%] text-[#18191F] text-center lg:text-start">
+                <p className="font-inter text-base sm:text-lg  font-normal !leading-[177.778%] text-[#18191F] text-center lg:text-start">
                   Get inspired by these stories.
                 </p>
               </div>
@@ -46,16 +46,16 @@ const Realstories = () => {
                     </defs>
                   </svg>
                   <div>
-                    <p className="font-inter text-base leading-[200%] font-normal pb-6">
+                    <p className="font-inter text-base !leading-[200%] font-normal pb-6">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                       aliquam, purus sit amet luctus venenatis, lectus magna
                       fringilla urna, porttitor rhoncus dolor purus non enim
                       praesent elem
                     </p>
-                    <h4 className="text-lg font-inter font-bold leading-[155.556%] text-[#18191F] ">
+                    <h4 className="text-lg font-inter font-bold !leading-[155.556%] text-[#18191F] ">
                       Floyd Miles
                     </h4>
-                    <p className="font-inter text-sm leading-[171.429%] font-medium text-[#969BAB]">
+                    <p className="font-inter text-sm !leading-[171.429%] font-medium text-[#969BAB]">
                       Vice President, CLI
                     </p>
                   </div>
@@ -91,16 +91,16 @@ const Realstories = () => {
                   </defs>
                 </svg>
                 <div>
-                  <p className="text-base font-inter leading-[200%] font-normal mb-6">
+                  <p className="text-base font-inter !leading-[200%] font-normal mb-6">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                     aliquam, purus sit amet luctus venenatis, lectus magna
                     fringilla urna, porttitor rhoncus dolor purus non enim
                     praesent elem
                   </p>
-                  <h4 className=" text-lg font-inter font-bold leading-[155.556%]">
+                  <h4 className=" text-lg font-inter font-bold !leading-[155.556%]">
                     Jane Cooper
                   </h4>
-                  <p className=" font-inter text-sm font-medium leading-[171.429%] text-[#969BAB]">
+                  <p className=" font-inter text-sm font-medium !leading-[171.429%] text-[#969BAB]">
                     CEO, JPNL
                   </p>
                 </div>
@@ -133,9 +133,9 @@ const Realstories = () => {
                   </defs>
                 </svg>
                 <div>
-                    <p className="text-base font-inter leading-[200%] font-normal mb-6">LemonWares saved our time in Hosting my company page.</p>
-                    <h4 className="text-lg font-inter font-bold leading-[155.556%]">Kristin Watson</h4>
-                    <p className="font-inter text-sm font-medium leading-[171.429%] text-[#969BAB]">Co-Founder, LeeveOn Branding</p>
+                    <p className="text-base font-inter !leading-[200%] font-normal mb-6">LemonWares saved our time in Hosting my company page.</p>
+                    <h4 className="text-lg font-inter font-bold !leading-[155.556%]">Kristin Watson</h4>
+                    <p className="font-inter text-sm font-medium !leading-[171.429%] text-[#969BAB]">Co-Founder, LeeveOn Branding</p>
                 </div>
               </div>
             </div>

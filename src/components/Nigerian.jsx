@@ -12,10 +12,10 @@ const Nigerian = () => {
         <div className="flex flex-wrap flex-row -mx-3">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-right"   data-aos-easing="linear"
      data-aos-duration="1000">
-            <h2 className=" max-w-[700px] lg:max-w-[445px] text-4xl sm:text-5xl text-center lg:text-start mx-auto lg:mx-0 font-inter font-extrabold leading-[133.333%] mb-2">
+            <h2 className=" max-w-[700px] lg:max-w-[445px] text-4xl sm:text-5xl text-center lg:text-start mx-auto lg:mx-0 font-inter font-extrabold !leading-[133.333%] mb-2">
               We serve over 100 Nigerian Websites
             </h2>
-            <p className=" max-w-[600px] text-center lg:text-start mx-auto lg:mx-0 lg:max-w-[445px] font-inter text-lg leading-[177.778% ] font-normal">
+            <p className=" max-w-[600px] text-center lg:text-start mx-auto lg:mx-0 lg:max-w-[445px] font-inter text-lg !leading-[177.778% ] font-normal">
               Connect LemonWares with your favourite tools that you use daily
               and keep things on track.
             </p>

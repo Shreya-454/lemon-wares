@@ -12,10 +12,10 @@ const Hosting = () => {
         <div className="flex flex-wrap fle-row -mx-3">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-up-right"   data-aos-easing="linear"
      data-aos-duration="1000">
-            <h2 className=" font-inter text-4xl sm:text-5xl font-extrabold text-[#18191F] leading-[133.333%] text-center mx-auto lg:text-start lg:mx-0">
+            <h2 className=" font-inter text-4xl sm:text-5xl font-extrabold text-[#18191F] !leading-[133.333%] text-center mx-auto lg:text-start lg:mx-0">
               True Cloud Web Hosting
             </h2>
-            <p className=" font-inter text-base sm:text-lg font-normal leading-[177.778%] pt-4 max-w-[573px] text-[#18191F] text-center mx-auto lg:text-start lg:mx-0">
+            <p className=" font-inter text-base sm:text-lg font-normal !leading-[177.778%] pt-4 max-w-[573px] text-[#18191F] text-center mx-auto lg:text-start lg:mx-0">
               True Cloud Web Hosting All of the hosting packages we offer are
               deployed instantly on our SSD powered cloud. We don’t use
               dedicated servers that operate on single pieces of hardware. Our

@@ -15,7 +15,7 @@ const Awesome = () => {
             className="absolute left-[-1%] top-[73%]"
           />
           <img src={t3} alt="triangle" className="absolute right-[-2%] bottom-[12%]" />
-          <h2 className=" text-4xl sm:text-5xl md:text-[64px] font-poppins leading-[137.5%] font-semibold text-center max-w-[1024px] mx-auto mb-10">
+          <h2 className=" text-4xl sm:text-5xl md:text-[64px] font-poppins !leading-[137.5%] font-semibold text-center max-w-[1024px] mx-auto mb-10">
             We're here to make your website awesome.
           </h2>
           <a href="https://www.whatsapp.com/"  target="blank">
@@ -36,7 +36,7 @@ const Awesome = () => {
                   />
                 </svg>
               </span>
-            <span className="relative z-10  text-white font-poppins group-hover:text-white duration-500    sm:text-sm text-xs font-normal leading-[171.429%]">Get in touch with us</span>
+            <span className="relative z-10 text-white font-poppins group-hover:text-white duration-500 sm:text-sm text-xs font-normal !leading-[171.429%]">Get in touch with us</span>
                     </button>
           </a>
         </div>

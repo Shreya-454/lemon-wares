@@ -39,24 +39,24 @@ const Ready = () => {
 "data-aos="flip-right"  data-aos-easing="linear"
 data-aos-duration="1000"
             >
-              <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
+              <p className="text-black font-poppins text-[28px] font-semibold !leading-[89.286%]">
           {Premium === "tabone" && (<span>{myArray.heading}</span>)}
           {Premium==="tabsecond"&&(<span>{myArray.heading4}</span>)} 
               </p>
-              <p className="md:pt-[11px] sm:pt-2 pt-1 text-black text-xs font-normal leading-[150%] max-w-[237px] font-poppins">
+              <p className="md:pt-[11px] sm:pt-2 pt-1 text-black text-xs font-normal !leading-[150%] max-w-[237px] font-poppins">
                 with all your customers via all conversation channels in one
                 central dashboard.
               </p>
-              <p className="font-poppins text-black md:text-[42px] text-3xl font-semibold leading-[76.19%] md:pt-7 sm:pt-5 pt-4">
+              <p className="font-poppins text-black md:text-[42px] text-3xl font-semibold !leading-[76.19%] md:pt-7 sm:pt-5 pt-4">
                 {Premium === "tabone" && (<span>{myArray.heading2}</span>)}
           {Premium==="tabsecond"&&(<span>{myArray.heading3}</span>)} 
               </p>
-              <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
+              <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] !leading-[100%]">
                 {toggle?"Per year":"Per month"}
         </p>
               <div className="flex justify-center">
                 <button className="relative md:px-14 md:pb-[13px] md:pt-2.5 px-12 pb-2 pt-1.5 border-[2px] border-black group overflow-hidden bg-white text-black hover:shadow-2xl rounded-[12px] md:mt-[35px] mt-6 transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-black before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:-full after:bg-black after:duration-500 hover:text-white hover:shadow-black hover:before:h-2/4 hover:after:h-2/4">
-                          <span className="relative z-10  text-black font-poppins group-hover:text-white duration-500  leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
+                          <span className="relative z-10  text-black font-poppins group-hover:text-white duration-500  !leading-[ 228.571%] text-nowrap font-semibold  sm:text-sm text-xs">Choose this Plan</span>
                         </button>
               </div>
               <div className="flex items-center md:pt-[35px] pt-7 pb-2 md:pb-4">
@@ -74,7 +74,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">2GB SSD</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">2GB SSD</p>
               </div>
                 <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -91,7 +91,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">10GB Bandwidth</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">10GB Bandwidth</p>
               </div>
               <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -108,7 +108,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">15 Email Accounts</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">15 Email Accounts</p>
               </div>
                <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -125,7 +125,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">Unlimited Database</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">Unlimited Database</p>
               </div>
                <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -142,7 +142,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">4 Subdomains</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">4 Subdomains</p>
               </div>
                <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -159,7 +159,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">1 Parked Domain</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">1 Parked Domain</p>
               </div>
                <div className="flex items-center md:pb-[18px] pb-2 ">
                 <span>
@@ -176,7 +176,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">2 Websites</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">2 Websites</p>
               </div>
                <div className="flex items-center md:pb-[15px] pb-2">
                 <span>
@@ -193,7 +193,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">Free SSL</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">Free SSL</p>
               </div>
               <div className="flex items-center">
                 <span>
@@ -210,7 +210,7 @@ data-aos-duration="1000"
                     />
                   </svg>
                 </span>
-                <p className="text-[#808080] pl-6 font-inter text-base font-bold leading-[150%]">Softaculous</p>
+                <p className="text-[#808080] pl-6 font-inter text-base font-bold !leading-[150%]">Softaculous</p>
               </div>
             </div>
           </div>
@@ -220,16 +220,16 @@ data-aos-duration="1000"
     <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-5" id="account">
       <div className="container max-w-[1097px] mx-auto px-3">
         <div className="flex justify-center flex-col">
-          <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold leading-[150%] max-w-[650px]">
+          <h2 className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold !leading-[150%] max-w-[650px]">
             Ready to get started with Lemon Wares?
           </h2>
-          <p className="md:pt-9 sm:pt-5 pt-3 text-black font-poppins md:text-[25px] text-xl font-normal leading-[100%] text-center mx-auto">
+          <p className="md:pt-9 sm:pt-5 pt-3 text-black font-poppins md:text-[25px] text-xl font-normal !leading-[100%] text-center mx-auto">
             Choose the package that suits you
           </p>
            <div className="flex justify-center ml-auto items-center">
            </div>
           <div className="lg:pt-[57px] md:pt-8 sm:pt-4 flex items-center lg:mb-[85px] md:mb-18 sm:mb-10 mb-8 justify-center">
-            <p className=" text-black font-poppins md:text-[25px] text-[20px] font-normal leading-[100%]">
+            <p className=" text-black font-poppins md:text-[25px] text-[20px] font-normal !leading-[100%]">
               Monthly
             </p>
             <div
@@ -243,17 +243,17 @@ data-aos-duration="1000"
               ></div>
             </div>
             <div className="flex md:flex-row md:gap-[17px] gap-2 max-md:pl-7 max-md:mt-6 flex-col items-center justify-center">
-              <p className=" text-black font-poppins md:pl-7 md:text-[25px] text-[20px] font-normal leading-[100%]">
+              <p className=" text-black font-poppins md:pl-7 md:text-[25px] text-[20px] font-normal !leading-[100%]">
                 Yearly
               </p>
-              <button className="text-black  font-poppins text-[10px] rounded-[8px] font-medium  leading-[90%] px-2 py-[7px] bg-[#FFE87A]">
+              <button className="text-black  font-poppins text-[10px] rounded-[8px] font-medium  !leading-[90%] px-2 py-[7px] bg-[#FFE87A]">
                 20% discount
               </button>
             </div>
           </div>
           <div className="flex items-center border-b-[4px] lg:mb-24 md:mb-20 sm:mb-14 mb-8 max-w-[856px] justify-center w-full mx-auto">
             <p
-              className={`text-black font-poppins md:text-[30px] text-2xl font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${
+              className={`text-black font-poppins md:text-[30px] text-2xl font-semibold !leading-[40px] cursor-pointer text-center relative w-1/2 ${
                 Premium === "tabone"
                   ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0"
                   : ""
@@ -263,7 +263,7 @@ data-aos-duration="1000"
               Basic
             </p>
             <p
-              className={`text-black font-poppins md:text-[30px] text-2xl font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${
+              className={`text-black font-poppins md:text-[30px] text-2xl font-semibold !leading-[40px] cursor-pointer text-center relative w-1/2 ${
                 Premium === "tabsecond"
                   ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0"
                   : ""

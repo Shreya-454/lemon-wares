@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-row flex-wrap -mx-3 pb-[96px]">
           <div className="lg:w-4/12 px-3 w-full">
             <img src={footlogo} alt="footlogo" />
-            <p className="text-[#E6E6E6] text-base font-inter leading-[200%] md:max-w-[500px] lg:max-w-[296px] pt-4 font-normal">
+            <p className="text-[#E6E6E6] text-base font-inter !leading-[200%] md:max-w-[500px] lg:max-w-[296px] pt-4 font-normal">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor rhoncus dolor purus non enim praesent elem
@@ -19,13 +19,13 @@ const Footer = () => {
             <div className="flex flex-row flex-wrap -mx-3">
               <div className="md:w-3/12 w-1/2 px-3">
                 <ul>
-                  <li className="font-inter font-bold leading-[150%] text-base text-white pb-6">
+                  <li className="font-inter font-bold !leading-[150%] text-base text-white pb-6">
                     Service
                   </li>
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Domain
                     </a>
@@ -33,7 +33,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Shared Hosting
                     </a>
@@ -41,7 +41,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Cloud Hosting
                     </a>
@@ -49,7 +49,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Private Hosting
                     </a>
@@ -58,13 +58,13 @@ const Footer = () => {
               </div>
               <div className="md:w-3/12 w-1/2 px-3">
                 <ul>
-                  <li className="font-inter font-bold leading-[150%] text-base text-white pb-6">
+                  <li className="font-inter font-bold !leading-[150%] text-base text-white pb-6">
                     Hosting
                   </li>
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Cheap Hosting
                     </a>
@@ -72,7 +72,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Hosting Wordpress
                     </a>
@@ -80,7 +80,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Email Hosting
                     </a>
@@ -88,7 +88,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Hosting Unlimited
                     </a>
@@ -97,13 +97,13 @@ const Footer = () => {
               </div>
               <div className="md:w-3/12 w-1/2  px-3">
                 <ul>
-                  <li className="font-inter font-bold leading-[150%] text-base text-white pb-6">
+                  <li className="font-inter font-bold !leading-[150%] text-base text-white pb-6">
                     Company
                   </li>
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       About
                     </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Career
                     </a>
@@ -119,7 +119,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Contact Us
                     </a>
@@ -128,13 +128,13 @@ const Footer = () => {
               </div>
               <div className="md:w-3/12 w-1/2 px-3">
                 <ul>
-                  <li className="font-inter font-bold leading-[150%] text-base text-white pb-6">
+                  <li className="font-inter font-bold !leading-[150%] text-base text-white pb-6">
                     Help
                   </li>
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       FAQ
                     </a>
@@ -142,7 +142,7 @@ const Footer = () => {
                   <li className="pb-6">
                     <a
                       href=""
-                      className="font-inter font-normal leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
+                      className="font-inter font-normal !leading-[150%] text-base text-[#E6E6E6] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#E6E6E6]"
                     >
                       Help support
                     </a>
@@ -152,7 +152,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className=" text-white font-Inter text-sm sm:text-base font-normal leading-[32px] ">
+        <p className=" text-white font-Inter text-sm sm:text-base font-normal !leading-[32px] ">
           Built by Jeremiah with &#129293; in Lagos. Copyright {year}
         </p>
       </div>

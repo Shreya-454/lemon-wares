@@ -26,37 +26,37 @@ const Mynav = () => {
                     </a>
                   </li>
                   <li onClick={nav} className="lg:block hidden  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] ">
-                    <a href="#" className="text-black text-center font-poppins font-semibold leading-normal text-[15px]  ">Our Services</a>
+                    <a href="#" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px]  ">Our Services</a>
                   </li>
                 </ul>
                 <ul    className={`gap-8 flex mobileView items-center duration-700 ${
                   show ? "right-[-100%]" : "right-0"
                               }`}>
                                 <li onClick={nav} className=" lg:hidden block  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                    <a href="#head" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Our Services</a>
+                    <a href="#head" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">Our Services</a>
                   </li>
                   <li onClick={nav} className=" relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                    <a href="#about" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">About</a>
+                    <a href="#about" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">About</a>
                   </li>
                   <li onClick={nav} className=" relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                    <a href="#blogs" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Blog&News</a>
+                    <a href="#blogs" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">Blog&News</a>
                   </li>
                   <li onClick={nav} className="s relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                    <a href="#contact" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Contact</a>
+                    <a href="#contact" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">Contact</a>
                               </li>
                                <li onClick={nav} className="md:hidden block relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                   <a href="#account" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Account</a>
+                   <a href="#account" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">Account</a>
                   </li>
                 </ul>
               </div>
               <div>
                 <ul className="flex gap-8 ">
                   <li className=" md:block hidden  relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%]">
-                    <a href="#account" className="text-black text-center font-poppins font-semibold leading-normal text-[15px] ">Account</a>
+                    <a href="#account" className="text-black text-center font-poppins font-semibold !leading-normal text-[15px] ">Account</a>
                   </li>
                   <li className="text-[#DAD8D8] max-md:hidden">|</li>
                   <li >
-                    <a href="tel:+2349067322844" className="text-black flex items-center text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] sm:text-[15px] text-xs font-semibold leading-normal">
+                    <a href="tel:+2349067322844" className="text-black flex items-center text-center font-poppins relative after:absolute after:left-0 after:mx-auto after:right-0 after:bottom-[-4px] after:bg-[#B00000] after:h-[2px] after:rounded-[10px] after:transition-all after:ease-linear after:duration-400 after:w-0 hover:after:w-[70%] sm:text-[15px] text-xs font-semibold !leading-normal">
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

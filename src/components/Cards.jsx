@@ -30,10 +30,10 @@ const Cards = () => {
             <img src={card.icon} alt="icon1" />
           </div>
         </div>
-        <p className=" text-xl font-bold font-poppins leading-normal pb-1 text-center">
+        <p className=" text-xl font-bold font-poppins !leading-normal pb-1 text-center">
         {card.title}
         </p>
-        <p className="text-xs font-light font-poppins leading-normal text-center max-w-[350px] mx-auto">
+        <p className="text-xs font-light font-poppins !leading-normal text-center max-w-[350px] mx-auto">
           We Keep Your Web build Online 24x7x365. Downtime not only costs
           you lost visitors but also damages your reputation and search
           engine rankings.
